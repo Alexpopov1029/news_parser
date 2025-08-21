@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup
 import csv
 
 def fetch_news():
-    url = "https://news.ycombinator.com/"   # сайт для примера (Hacker News)
+    url = "https://news.ycombinator.com/"  # сайт для примера (Hacker News)
     response = requests.get(url)
     response.raise_for_status()
 
